@@ -24,14 +24,14 @@ const Home = () => {
                   Fast, Secure Cross-Border Payments for African Businesses
                 </h1>
                 <p className="text-lg sm:text-xl text-primary-100 max-w-2xl">
-                  RMB ↔ NGN exchange, international supplier payments, and crypto OTC services — built for importers, exporters, and SMEs.
+                  RMB ↔ NGN payments, international supplier payments, and crypto OTC services — built for importers, exporters, and SMEs.
                 </p>
               </div>
 
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
-                  href="https://wa.me/2348012345678" 
+                  href="https://wa.me/2348148510983" 
                   variant="accent"
                   icon
                   className="text-lg px-8 py-4"
@@ -129,9 +129,9 @@ const Home = () => {
               <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
                 <span className="text-2xl">¥₦</span>
               </div>
-              <h3 className="text-xl font-bold text-neutral-900 mb-3">RMB ↔ NGN Exchange</h3>
+              <h3 className="text-xl font-bold text-neutral-900 mb-3">RMB ↔ NGN Payments</h3>
               <p className="text-neutral-600 mb-4">
-                Fast and competitive exchange rates for businesses trading with China. Perfect for importers and exporters.
+                Fast and competitive payment rates for businesses trading with China. Perfect for importers and exporters.
               </p>
               <ul className="space-y-2 text-sm text-neutral-600">
                 <li className="flex items-start gap-2">
@@ -179,9 +179,9 @@ const Home = () => {
               <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
                 <span className="text-2xl">₿</span>
               </div>
-              <h3 className="text-xl font-bold text-neutral-900 mb-3">Crypto OTC Exchange</h3>
+              <h3 className="text-xl font-bold text-neutral-900 mb-3">Crypto OTC Payments</h3>
               <p className="text-neutral-600 mb-4">
-                Over-the-counter crypto exchange for BTC, USDT, USDC, and other digital assets. Secure and discreet.
+                Over-the-counter crypto payments for BTC, USDT, USDC, and other digital assets. Secure and discreet.
               </p>
               <ul className="space-y-2 text-sm text-neutral-600">
                 <li className="flex items-start gap-2">
@@ -252,7 +252,7 @@ const Home = () => {
               <p className="text-neutral-700 mb-8">
                 Contact us on WhatsApp to discuss your cross-border payment needs. Our team is available 24/7 to assist you.
               </p>
-              <Button href="https://wa.me/2348012345678" variant="accent" icon className="w-full sm:w-auto">
+              <Button href="https://wa.me/2348148510983" variant="accent" icon className="w-full sm:w-auto">
                 Chat with Us on WhatsApp
               </Button>
               <p className="text-sm text-neutral-600 mt-6">

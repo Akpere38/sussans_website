@@ -7,7 +7,7 @@ const HowItWorks = () => {
       number: '01',
       icon: MessageSquare,
       title: 'Contact & Consultation',
-      description: 'Reach out via WhatsApp or our contact form. Tell us about your transaction needs—whether it\'s RMB ↔ NGN exchange, international payments, or crypto OTC.',
+      description: "Reach out via WhatsApp or our contact form. Share your payment needs—whether it's RMB ↔ NGN, other international payments, or crypto OTC. We connect you with reliable partners abroad to complete your transaction.",
       details: [
         'Provide basic transaction details',
         'Specify currency pair and amount',
@@ -19,7 +19,7 @@ const HowItWorks = () => {
       number: '02',
       icon: FileText,
       title: 'KYC & Documentation',
-      description: "Complete our secure KYC process. We'll guide you through the required documentation to ensure compliance and protect your transaction.",
+      description: "Complete our secure KYC process. We’ll guide you to provide the necessary documentation so your transaction is handled safely and transparently.",
       details: [
         'Submit valid identification documents',
         'Provide proof of business (if applicable)',
@@ -31,11 +31,11 @@ const HowItWorks = () => {
       number: '03',
       icon: ArrowRightLeft,
       title: 'Quote & Agreement',
-      description: "Receive a competitive rate quote with transparent fees. Review the terms, and once you're satisfied, we'll lock in the rate and proceed.",
+      description: "Receive a quote with clear fees based on current market rates. Review the terms, and once agreed, we coordinate with our partners to process the payment.",
       details: [
-        'Real-time exchange rate provided',
-        'No hidden fees—everything disclosed upfront',
-        'Rate locked for the transaction window',
+        'Real-time market-based rate',
+        'Transparent fees disclosed upfront',
+        'Confirmation before proceeding',
       ],
       timeline: '10-15 minutes',
     },
@@ -43,11 +43,11 @@ const HowItWorks = () => {
       number: '04',
       icon: CheckCircle2,
       title: 'Transfer & Settlement',
-      description: 'Initiate your transfer following our secure instructions. We verify receipt and process the settlement to your designated account or wallet.',
+      description: "Transfer the funds to our account. We confirm receipt and coordinate with our partners to settle the payment to the recipient abroad.",
       details: [
         'Transfer funds to our secure account',
-        'We verify and confirm receipt',
-        'Settlement processed to your account',
+        'We confirm receipt of funds',
+        'Payment coordinated with partner for settlement',
       ],
       timeline: '24-48 hours',
     },
@@ -62,7 +62,7 @@ const HowItWorks = () => {
             How It Works
           </h1>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
-            Our streamlined process makes cross-border payments simple, secure, and transparent. From first contact to final settlement, we're with you every step of the way.
+            We help businesses and individuals make international payments efficiently and safely through trusted partners. From first contact to final settlement, we guide you every step of the way.
           </p>
         </div>
       </section>
@@ -137,7 +137,7 @@ const HowItWorks = () => {
               What Makes Our Process Different
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              We've designed every step to prioritize security, speed, and transparency
+              We've designed every step to prioritize security, efficiency, and transparency
             </p>
           </div>
 
@@ -147,10 +147,10 @@ const HowItWorks = () => {
                 <Shield size={28} className="text-primary-600" />
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">
-                Bank-Level Security
+                Secure Handling
               </h3>
               <p className="text-neutral-600">
-                Full KYC/AML compliance and encrypted transactions protect your funds at every stage. We follow international financial regulations.
+                Secure handling of your transaction information and funds throughout the process. We follow strong safety practices and verification procedures.
               </p>
             </div>
 
@@ -162,7 +162,7 @@ const HowItWorks = () => {
                 Fast Processing
               </h3>
               <p className="text-neutral-600">
-                Most transactions settle within 24-48 hours. We work around the clock to ensure your payments are processed quickly and efficiently.
+                Most transactions settle within 24-48 hours. We coordinate with partners to ensure payments are processed efficiently.
               </p>
             </div>
 
@@ -174,7 +174,7 @@ const HowItWorks = () => {
                 Dedicated Support
               </h3>
               <p className="text-neutral-600">
-                Our team is available 24/7 on WhatsApp to answer questions, provide updates, and resolve any issues that may arise during your transaction.
+                Our team is available 24/7 on WhatsApp to answer questions, provide updates, and guide you through your transaction.
               </p>
             </div>
           </div>
@@ -192,13 +192,13 @@ const HowItWorks = () => {
               </h3>
               <div className="text-neutral-700 space-y-2">
                 <p>
-                  Cross-border payments and currency exchange involve inherent risks including exchange rate fluctuations and regulatory changes. We cannot guarantee specific rates or timelines beyond our control.
+                  Cross-border payments and currency exchange involve inherent risks, including market rate fluctuations and external processing times. We coordinate with trusted partners but cannot guarantee specific rates or settlement timelines.
                 </p>
                 <p>
-                  All transactions are subject to verification and compliance checks. We reserve the right to decline transactions that do not meet our KYC/AML standards or regulatory requirements.
+                  All transactions are subject to verification and our internal safety checks. We may decline transactions that do not meet our verification standards.
                 </p>
                 <p className="font-medium text-neutral-900">
-                  By proceeding, you acknowledge understanding these risks and agree to provide accurate information for compliance purposes.
+                  By proceeding, you acknowledge understanding these risks and agree to provide accurate information for safe processing.
                 </p>
               </div>
             </div>
@@ -216,7 +216,7 @@ const HowItWorks = () => {
             Contact us on WhatsApp to begin. Our team will guide you through each step and answer any questions you may have.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="https://wa.me/2348012345678" variant="accent" icon className="text-lg px-8 py-4">
+            <Button href="https://wa.me/2348148510983" variant="accent" icon className="text-lg px-8 py-4">
               Start on WhatsApp
             </Button>
             <Button href="/contact" variant="secondary" className="text-lg px-8 py-4">

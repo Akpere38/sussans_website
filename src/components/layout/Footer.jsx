@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold text-white mb-4">CrossPay</h3>
             <p className="text-neutral-400 mb-4 max-w-md">
-              Fast, secure cross-border payments for African businesses. Specializing in RMB ↔ NGN exchange, international payments, and crypto OTC services.
+              Fast, secure cross-border payments for African businesses. Specializing in RMB ↔ NGN payments, international payments, and crypto OTC services.
             </p>
             <div className="space-y-2 text-sm text-neutral-400">
               <div className="flex items-center gap-2">

@@ -41,7 +41,7 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button href="https://wa.me/2348012345678" variant="primary" className="text-sm">
+            <Button href="https://wa.me/2348148510983" variant="primary" className="text-sm">
               Contact Us
             </Button>
           </div>
@@ -73,7 +73,7 @@ const Header = () => {
               </Link>
             ))}
             <div className="px-4 pt-2">
-              <Button href="https://wa.me/2348012345678" variant="primary" className="w-full">
+              <Button href="https://wa.me/2348148510983" variant="primary" className="w-full">
                 Contact Us
               </Button>
             </div>
